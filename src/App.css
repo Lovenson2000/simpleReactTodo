@@ -1,0 +1,51 @@
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: rgb(63, 74, 86);
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    margin-bottom: 20px;
+    outline: none; /* Remove the default input focus outline */
+  }
+
+  .complete {
+    border-bottom: 2px solid green;
+  }
+
+  .incomplete {
+    border-bottom: 2px solid red;
+  }
+  button {
+    padding: .4rem 1rem;
+    font-size: 1.1rem;
+    outline: none;
+    border-style: none;
+    background-color: rgb(80, 80, 180);
+    color: aliceblue;
+    cursor: pointer;
+  }
+  .taskContainer {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+  }
+  .task {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
